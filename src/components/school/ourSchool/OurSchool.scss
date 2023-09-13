@@ -1,0 +1,42 @@
+
+.OurSchool{
+    padding-bottom: 180px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        padding-top: 111px;
+    }
+}
+.school{
+    &--first{
+        padding: 61px 61px;
+        h1{
+            color: #FFF;
+            font-size: 16px;
+        }
+        span{
+            color: #A5A5A5;
+        }
+    }
+    &--text{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        &__one{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+}
+
+
+.aaaa{
+    color: #FFF;
+    font-size: 36px;
+}
+.oooo{
+    color: #FFF;
+    font-size: 20px;
+    width: 570px;
+}

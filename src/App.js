@@ -1,3 +1,8 @@
+
+import { Route } from 'react-router-dom';
+import './App.scss';
+import School from './components/school/school';
+
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Footer from "./components/Footer";
@@ -13,11 +18,15 @@ import Header from './components/Header/index';
 import HomePage from './components/HomePage';
 import Voyti from './components/Voyti';
 
+
 function App() {
    const local = useLocation();
    const isLocal = local.pathname.includes("/Login");
   return (
     <div className="App">
+
+      <School/>
+
       <Header />
       <div className="content">
         <Routes>
