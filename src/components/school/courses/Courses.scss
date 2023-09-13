@@ -1,0 +1,73 @@
+
+.kub{
+    bottom: -576px;
+    left: 700px;
+    position: absolute;
+    width: 749px;
+    height: 749px;
+    border-radius: 50%;
+    background: rgba(0, 144, 255, 0.36);
+    filter: blur(561.75px);
+    -webkit-box-shadow: 4px 4px 100px 100px rgba(0, 144, 255, 0.36);
+    -moz-box-shadow: 4px 4px 100px 100px rgba(0, 144, 255, 0.36);
+    box-shadow: 4px 4px 100px 100px rgba(0, 144, 255, 0.36);
+}
+.courses{
+    &--text{
+        h1{
+            color: #FFF;
+            font-size: 36px;
+            line-height: 35px; 
+            text-align: center;
+        }
+        &__block{
+                display: flex;
+                justify-content: space-around;
+                gap: 30px;
+                margin-top: 50px;
+            &--one{
+                z-index: 1;
+                background: #ffffff;
+                display: inline-flex;
+                padding: 30px 29px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 14px;
+                border-radius: 8px;  
+            h4{
+                color: #000;
+                font-size: 24px;
+            }
+            p{
+                width: 312px;
+                color: #000;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            button{
+                border: none;
+                border-bottom: 2px solid #000;
+            }
+            }
+        }
+    }
+}
+.buttom {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    button{
+        color: #FFF;
+        font-size: 16px;
+        padding: 16px 61px 15px 61px;
+        border-radius: 5px;
+        background: #043C71;
+        backdrop-filter: blur(7.5px);
+        border: none;
+        
+    }
+}
+    
