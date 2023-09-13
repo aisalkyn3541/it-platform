@@ -1,0 +1,120 @@
+#AboutUs {
+  background: #0a1128;
+  .AboutUs {
+    h5 {
+      color: #a5a5a5;
+      font-size: 16px;
+      font-weight: 400;
+      span {
+        color: wheat;
+      }
+    }
+    &--text {
+      text-align: center;
+      h2 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+      }
+      &--p1 {
+        margin-top: 20px;
+        width: 600px;
+        color: #fff;
+        margin-left: 306px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      &--p2 {
+        width: 650px;
+        height: 86px;
+        margin-left: 276px;
+        margin-top: 20px;
+
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+    &--img {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 70px;
+    }
+    &--sert {
+      &--h1 {
+        color: #fff;
+        font-size: 36px;
+        margin: 130px 0 20px 0;
+        text-align: center;
+
+        font-style: normal;
+        font-weight: 700;
+      }
+      &--p {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      &--img {
+        display: flex;
+        margin-left: 310px;
+        margin-bottom: 212px;
+      }
+    }
+    &--list {
+      margin-bottom: 30px;
+      &--p {
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 82px;
+        font-weight: 700;
+        &--block {
+          display: flex;
+          overflow: scroll;
+          // margin-bottom: 100px;
+          gap: 20px;
+          &--blocks {
+            border-radius: 10px;
+            background: #102146;
+            width: 457px;
+            height: 272px;
+            text-align: center;
+            flex-shrink: 0;
+            &--img {
+            }
+            &--h5 {
+              color: #fff;
+              font-size: 18px;
+              font-weight: 600;
+              margin-bottom: 15px;
+            }
+            &--p {
+              color: #fff;
+              text-align: center;
+              font-size: 13px;
+              text-align: center;
+              font-weight: 500;
+              width: 357px;
+              margin-left: 55px;
+              height: 120px;
+            }
+            &--year {
+              color: #fff;
+              text-align: center;
+              font-family: Montserrat;
+              font-size: 16px;
+              font-weight: 600;
+              margin-left: 310px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
